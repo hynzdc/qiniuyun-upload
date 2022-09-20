@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: qiniuyun
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+server:
+  port: 8080
+qiniu:
+  kodo:
+    # 配置accessKey
+    accessKey: uxdp0vhGgMor7cCN2Ikan2d-WfG-eOxiahmCAFBt
+    # 配置secretKey
+    secretKey: WcaeZTX4AWHCe9HZvkuAHbjnnLr1KfdqvqkGpssd
+    # 配置空间名称
+    bucket: hynzdc
+    # 配置域名
+    prefix: ricyi7fln.hn-bkt.clouddn.com
+
+
+
